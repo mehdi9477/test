@@ -2,38 +2,108 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>محصولات ایرانی</title>
-<style type="text/css">
-footer
-h3{color:green;}
-h3{text-align:center;}
-  body{background-color:gray}
- h1{color:yellow;}
- h1,p{text-align:center;}
- p{color:white;}
-</style>
+<title>my title</title>
 </head>
+<style>
+
+header{
+background-color:blue;
+height:70px;
+text-align:center;
+}
+
+h1,p{
+background-color:red;
+}
+h1,p,h2,h3{
+text-align:center;
+}
+h2{
+background-color:blue;
+}
+h3{
+background-color:yellow;
+}
+footer{
+	width:100%;
+	height:100px;
+	background:red;
+}
+
+main{
+background-color:gray;
+text-align:center;
+}
+
+.col-1{
+	width:8.333%;
+}
+	
+.col-2{
+	width:16.66666%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.3333%;
+}
+.col-5{
+	width:41.66666%;
+}
+.col-6{
+	width:49.99998%;
+}
+.col-7{
+	width:58.3333%;
+}
+.col-8{
+	width:64.6666%;
+}
+.col-9{
+	width:74.99999%;
+}
+.col-10{
+	width:83.3333%;
+}
+.col-11{
+	width:91.6666%;
+}
+.col-12{
+	width:99.9999%;
+}
+.container{width:100%;}
+.row{display:flex;}
+</style>
+<link rel="stylesheet"href="style/test.css">
+
 <body>
-<h1>معرفی پسته ایرانی</h1>
-<p>یکی از بهترین
-<br>
- محصولات ایران پسته است.این محصول سرشار از پتاسیم است.مراکز اصلی تولید پسته در استان کرمان و
- <br>
-شهرستان رفسنجان قرار دارند.در ایران چهار نوع پسته فندقی,کله قوچی,
-<br>
-احمد آقایی واکبری تولید می شوند. <hr></p>
    <header>
+   my header
    </header>
    <main>
-     <aside>  
+   <h4>my main</h4>
+   
+       <div class = "container">
+<div class = "row">
+   
+   	        <aside class="col-1" style="background-color:blue ;height:500px ;width:25%"> 
+<article>my aside</article> 
      </aside>
-     <section>
-       <article>
-       </article>
-      </section>
-    </main>   
+   
+ 
+<section class="col-5" style="background:yellow;height:500px; width:25%;"><article><h1>1</h1></article><article><h2>3</h2></article></section>
+<section class="col-5" style="background:red;height:500px; width:25%;"><article><h2>2</h2></article><article><h3>3</h3></article></section>
+<section class="col-2" style="background:green;height:500px; width:25%;"><article><h3>3</h3></article><article><h1>3</h1></article></section>
+</div>
+</div>
+  
+
+    
+
+	    </main>
    <footer>
-   <h3>موفق باشید</h3>
+   <h3>فوتر</h3>
   </footer>
    </body>
   </html>
